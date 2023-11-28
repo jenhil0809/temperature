@@ -4,7 +4,6 @@ import temperature_calcs
 
 class TemperatureConverter(tk.Tk):
     def __init__(self):
-        # Initialised the tk.Tk app
         super().__init__()
         self.bgcolor = "lightblue1"
         self.config(bg=self.bgcolor)
