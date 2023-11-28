@@ -54,19 +54,19 @@ class DisplayConversion(tk.Frame):
 
     def convert_rate(self, unit_from, unit_to):
         if unit_from == "kelvin" and unit_to == "celcius":
-            self.convert_txt.config(text="convertion rate:\nkelvin-273=celcius")
+            self.convert_txt.config(text="Convertion rate:\nkelvin-273=celcius")
         elif unit_from == "celcius" and unit_to == "kelvin":
-            self.convert_txt.config(text="convertion rate:\ncelcius+273=kelvin")
+            self.convert_txt.config(text="Convertion rate:\ncelcius+273=kelvin")
         elif unit_from == "farenheit" and unit_to == "celcius":
-            self.convert_txt.config(text="convertion rate:\n(farenheit-32)*5/9=celcius")
+            self.convert_txt.config(text="Convertion rate:\n(farenheit-32)*5/9=celcius")
         elif unit_from == "celcius" and unit_to == "farenheit":
-            self.convert_txt.config(text="convertion rate:\ncelcius*9/5+32=farenheit")
+            self.convert_txt.config(text="Convertion rate:\ncelcius*9/5+32=farenheit")
         elif unit_from == "farenheit" and unit_to == "kelvin":
-            self.convert_txt.config(text="convertion rate:\n(farenheit-32)*5/9+273=kelvin")
+            self.convert_txt.config(text="Convertion rate:\n(farenheit-32)*5/9+273=kelvin")
         elif unit_from == "kelvin" and unit_to == "farenheit":
-            self.convert_txt.config(text="convertion rate:\n(kelvin-273)*9/5+32=farenheit")
+            self.convert_txt.config(text="Convertion rate:\n(kelvin-273)*9/5+32=farenheit")
         else:
-            self.convert_txt.config(text=f"convertion rate:\n{unit_from}={unit_to}")
+            self.convert_txt.config(text=f"Convertion rate:\n{unit_from}={unit_to}")
 
 
 
