@@ -62,7 +62,7 @@ class DisplayConversion(tk.Frame):
         elif unit_from == "celcius" and unit_to == "farenheit":
             self.convert_txt.config(text="Convertion rate:\ncelcius*9/5+32=farenheit")
         elif unit_from == "farenheit" and unit_to == "kelvin":
-            self.convert_txt.config(text="Convertion rate:\n(farenheit-32)*5/9+273=kelvin")
+            self.convert_txt.config(text="Convertion rate:\n(farenheit-32)*5/9+273.15=kelvin")
         elif unit_from == "kelvin" and unit_to == "farenheit":
             self.convert_txt.config(text="Convertion rate:\n(kelvin-273.15)*9/5+32=farenheit")
         else:
