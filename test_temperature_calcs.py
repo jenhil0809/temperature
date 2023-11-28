@@ -2,7 +2,7 @@ from temperature_calcs import convert
 
 
 def test_k_to_c():
-    assert convert("kelvin", "celcius", 10) == -263
+    assert convert("kelvin", "celcius", 10) == -263.15
 
 
 def test_c_to_k():
@@ -18,7 +18,7 @@ def test_c_to_f():
 
 
 def test_k_to_f():
-    assert convert("kelvin", "farenheit", 278) == 41
+    assert convert("kelvin", "farenheit", 278) == 40.73000000000004
 
 
 def test_f_to_k():
