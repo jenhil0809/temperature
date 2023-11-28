@@ -7,7 +7,7 @@ def convert(unit_from, unit_to, val):
         val *= 5 / 9
     # then do other conversions
     if unit_to == "kelvin":
-        val += 273
+        val += 273.15
     elif unit_to == "farenheit":
         val /= 5 / 9
         val += 32

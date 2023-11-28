@@ -6,7 +6,7 @@ def test_k_to_c():
 
 
 def test_c_to_k():
-    assert convert("celcius", "kelvin", 10) == 283
+    assert convert("celcius", "kelvin", 10) == 283.15
 
 
 def test_f_to_c():
@@ -22,4 +22,4 @@ def test_k_to_f():
 
 
 def test_f_to_k():
-    assert convert("farenheit", "kelvin", 41) == 278
+    assert convert("farenheit", "kelvin", 41) == 278.15
